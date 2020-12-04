@@ -12,12 +12,12 @@ struct ContentView: View {
         VStack{
             Text("Countdown Timer")
                 .font(/*@START_MENU_TOKEN@*/.largeTitle/*@END_MENU_TOKEN@*/)
-                .fontWeight(.heavy)
-                .padding(.vertical, 60.0)
+                .fontWeight(.semibold)
+                .padding(.vertical, 20.0)
                         
             TimerView()
         }
-        .background(Color.yellow)
+        .background(Color.orange)
         .edgesIgnoringSafeArea(/*@START_MENU_TOKEN@*/.all/*@END_MENU_TOKEN@*/)
     }
 }
